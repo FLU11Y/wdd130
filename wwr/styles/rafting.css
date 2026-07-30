@@ -32,7 +32,7 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 1.5rem;
-    background: var(--green);
+    background: linear-gradient(90deg, var(--green), var(--yellow), var(--blue));
 }
 
 header img {
@@ -103,9 +103,9 @@ h3 {
 }
 
 .hero article img {
-    float: left;
+    float: right;
     width: 100px;
-    margin-right: 0.75rem;
+    margin-left: 0.75rem;
 }
 
 .history {
