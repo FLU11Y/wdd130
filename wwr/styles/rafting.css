@@ -32,14 +32,14 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 1.5rem;
-    background: linear-gradient(90deg, var(--green), var(--yellow), var(--blue));
+    background: linear-gradient(90deg, var(--green), var(--yellow), var(--yellow));
 }
 
 header img {
     width: 120px;
     height: auto;
     border-radius: 50%;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--yellow);
     background-color: white;
     padding: 0.3rem;
 }
@@ -172,7 +172,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    color: var(--blue);
+    color: var(--yellow);
     text-decoration: none;
     font-weight: bold;
 }
