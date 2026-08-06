@@ -1,3 +1,28 @@
+shopping_cart = []
+
+while True:
+    print("\n1. Add item")
+    print("2. View cart")
+    print("3. Remove item")
+    print("4. Compute total")
+    print("5. Quit")
+
+    choice = input("Choose an option: ").strip()
+
+    if choice == "1":
+        add_item(shopping_cart)
+    elif choice == "2":
+        display_cart(shopping_cart)
+    elif choice == "3":
+        remove_item(shopping_cart)
+    elif choice == "4":
+        compute_total(shopping_cart)
+    elif choice == "5":
+        print("Thank You. Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please try again.")
+
 def add_item(cart):
     name = input("Enter the item name: ").strip()
     if not name:
@@ -47,27 +72,3 @@ def compute_total(cart):
     print(f"Total: ${total:.2f}")
 
 
-shopping_cart = []
-
-while True:
-    print("\n1. Add a new item")
-    print("2. Display the shopping cart")
-    print("3. Remove an item")
-    print("4. Compute the total")
-    print("5. Quit")
-
-    choice = input("Choose an option: ").strip()
-
-    if choice == "1":
-        add_item(shopping_cart)
-    elif choice == "2":
-        display_cart(shopping_cart)
-    elif choice == "3":
-        remove_item(shopping_cart)
-    elif choice == "4":
-        compute_total(shopping_cart)
-    elif choice == "5":
-        print("Goodbye!")
-        break
-    else:
-        print("Invalid choice. Please try again.")
