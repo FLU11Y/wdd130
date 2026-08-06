@@ -31,7 +31,7 @@ else:
 
     print(f"The average is: {average}")
 
-    # Step 3: Find the max
+ # Step 3: Find the max
 
     best_so_far = numbers[0]
 
