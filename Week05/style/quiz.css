@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.box-spacing {
+    margin: 5px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'times new roman', Times, serif;
+    font-size: 1.5rem;
+    color: #1500ff;
+}
+
+form {
+    background-color: #EEEEEE;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+label-span {
+    color: #1500ff;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea,
+select {
+   min-height: 30px;
+   width: 100%;
+}
+
+code {
+    display: block;
+    background-color: #040404;
+    color: #eeeeee;
+    max-width: 75% !important;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    max-width: 75% !important;
+    margin: 10px auto;
+    padding: 10px;
+}
