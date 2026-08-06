@@ -1,30 +1,30 @@
 # Shopping Cart Program
 
-shopping_cart = []
+cart = []
 
 while True:
-    print("\n1. Add a new item")
-    print("2. Display the contents of the shopping cart")
+    print("\n1. Add item")
+    print("2. Show cart")
     print("3. Quit")
 
-    choice = input("Choose an option: ")
+    choice = input("Pick a number: ")
 
     if choice == "1":
-        item = input("Enter the item name: ")
-        shopping_cart.append(item)
-        print(f"Added '{item}' to the shopping cart.")
+        item = input("Type the item name: ")
+        cart.append(item)
+        print(f"Added '{item}' to your cart.")
 
     elif choice == "2":
-        if shopping_cart:
-            print("Shopping cart contents:")
-            for item in shopping_cart:
+        if cart:
+            print("Your cart:")
+            for item in cart:
                 print(f"- {item}")
         else:
-            print("Your shopping cart is empty.")
+            print("Your cart is empty.")
 
     elif choice == "3":
         print("Goodbye!")
         break
 
     else:
-        print("Invalid choice. Please try again.")
+        print("Please choose a valid option.")
